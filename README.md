@@ -1,0 +1,1 @@
+# aws-s3-sqs-php-sample-class
