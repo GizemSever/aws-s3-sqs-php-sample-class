@@ -1,0 +1,22 @@
+{
+    "name": "gizem/aws-s3-sqs-php-sample-class",
+    "description": "AWS S3 and SQS sample class for usage",
+    "type": "library",
+    "authors": [
+        {
+            "name": "GizemSever",
+            "email": "gizemsever68@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.4",
+        "aws/aws-sdk-php": "^3.204",
+        "vlucas/phpdotenv": "^5.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\AWS\\": "src"
+        },
+        "classmap": ["src"]
+    }
+}
