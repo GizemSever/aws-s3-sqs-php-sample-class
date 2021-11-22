@@ -81,7 +81,7 @@ class SQS{
     /**
      * @param string $name
      */
-    private function setQueueName(string $name){
+    public function setQueueName(string $name){
 
         $this->queueName = $name;
         $this->setQueueUrl();
